@@ -1,0 +1,60 @@
+body{
+    background-color: lightgray;
+}
+
+nav {
+    background-color: lightblue;
+    position: absolute;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    z-index: 1;
+  }
+  /* moves items in container to right margin */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+  }
+  /* attributes for items in flex box */
+  .flex-item {
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+  }
+  .name-tag {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+  }
+
+
+  form{
+      position: relative;
+      padding: 100px;
+      height: 50%;
+      width: 50%;
+    left: 25%;
+
+  }
+
+  /* #button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+  } */
+
+
+  footer {
+    margin: 200px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+  }
+  

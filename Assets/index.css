@@ -1,0 +1,66 @@
+nav {
+  background-color: lightblue;
+  position: absolute;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  z-index: 1;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/* moves items in container to right margin */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+}
+/* attributes for items in flex box */
+.flex-item {
+  margin: 10px;
+  color: white;
+  font-size: 25px;
+}
+.name-tag {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.main {
+  width: 650px;
+  height: 600px;
+}
+#placeholder {
+  margin: 10px;
+  float: left;
+}
+
+.about-text{
+    margin: 20px;
+}
+
+footer {
+  margin: 200px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+
