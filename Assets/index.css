@@ -12,6 +12,10 @@ main {
   left: 50px;
   width: 60%;
 }
+.centerDiv {
+  flex-direction: row;
+  justify-content: center;
+}
 .main2 {
   width: 675px;
   height: 600px;

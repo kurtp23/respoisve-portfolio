@@ -7,8 +7,8 @@ p {
 }
 main {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /* flex-direction: row;
+  justify-content: center; */
   background-color: white;
   position: relative;
   top: 100px;
@@ -17,6 +17,10 @@ main {
 .main {
   width: 450px;
   height: 700px;
+}
+.centerDiv {
+  flex-direction: row;
+  justify-content: center;
 }
 img {
   width: 600px;
@@ -33,7 +37,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .main {
     width: 80vw;
     height: 1250px;
